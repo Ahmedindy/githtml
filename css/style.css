@@ -100,6 +100,7 @@ details summary::-webkit-details-marker {
     display: none
 }
 details summary{
+    outline: none;
     position: relative;
 }
 details summary::before{
