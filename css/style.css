@@ -1,0 +1,290 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    box-sizing: border-box;
+    height: 323px;
+    background-color: #445162;
+    padding-top: 51px; 
+}
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1180px;
+}
+.wrapper{
+    float: left;
+    color: #ffffff;
+}
+.title{
+    margin: 0;
+    font-size: 60px;
+}
+.header__list{
+    padding: 0 0 0 36px;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0 0 36px;
+    font-size: 20px;
+    line-height: 36px;
+}
+.header__list-item{
+    position: relative;
+}
+.header__list-item::before{
+    content: "";
+    display: block;
+    height: 19px;
+    width: 25px;
+    background-image: url(../icons/check.png);
+    position: absolute;
+    left: -33px;
+    top: 8px;
+}
+.img{
+    float: right;
+    display: block;
+    height: 214px;
+    width: 469px;
+    background-color: #ffffff;  
+}
+.about{
+    box-sizing: border-box;
+    height: 344px;
+    background-color: #ffffff;
+    padding: 49px 0 0;
+}
+.about__wrapper{
+    width: 645px;
+    float: left;
+}
+.subtitle{
+    margin: 0;
+    font-size: 30px;
+    color: #445161;
+}
+.text{
+    font-size: 16px;
+    color: #333333;
+}
+.text-about-poze{
+    margin-top: 31px;
+}
+.about__video{
+    background-color: #445161;
+    float: right;
+    height: 245px;
+    width: 430px;
+}
+.product{
+    box-sizing: border-box;
+    height: 418px;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+.subtitle-centr{
+    text-align: center;
+}
+.product__wrapper{
+    float: left;
+    width: 590px;
+}
+.mt35{
+    margin-top: 35px;
+}
+.mr41{
+    margin-left: 41px;
+}
+details summary::-webkit-details-marker {
+    display: none
+}
+details summary{
+    position: relative;
+}
+details summary::before{
+    content:"";
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-color: #445161;
+    background-image: url(../icons/dogmoty.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+}
+.scrinshot{
+    padding-top: 51px;
+    height: 487px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+figure{
+    margin: 35px 0 0;
+    width: 590px;
+    float: left;
+}
+.scrinshot__img{
+    background-color: #445161;
+    display: block;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+h3{
+    font-size: 24px;
+    color: #445161;
+    margin: 0;
+    vertical-align: top;
+}
+.mt16{
+    margin: 16px 0 0;
+    width: 578px;
+}
+.reviews{
+    height: 424px;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.mb35{
+    margin-bottom: 35px;
+}
+.reviews-wrp-contant{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block-reviews{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+.avatar{
+    display: block;
+    height: 75px;
+    width: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+}
+.block-reviews__coment{
+    width: 471px;
+    height: 121px;
+    background-color: #ebebeb;
+    padding: 16px 15px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 28px;
+}
+.block-reviews__coment::after{
+    content: "";
+    border: 16px solid transparent;
+    border-right: 16px solid #ebebeb;
+    position: absolute;
+    top: 17px;
+    left: -30px;
+}
+.block-reviews__coment-text{
+    font-size: 14px;
+    color: #333333;
+    line-height: 18px;
+    font-style: italic;
+    margin: 0;
+}
+.block-reviews__coment-sign{
+    font-size: 14px;
+    color: #989898;
+    margin: 12px 0 0;
+}
+.buy{
+    box-sizing: border-box;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+.buy-wrp{
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 95px;
+}
+.bay__standart{
+    background-color: #445162;
+    box-sizing: border-box;
+    padding: 17px 0 20px ;
+    border-radius: 10px;
+    width: 300px;
+    height: 336px;
+    border: 2px solid #445162;
+}
+.title-tarif{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.bay__price{
+    color: #445162;
+    background-color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding: 16px 0 16px;
+    margin: 0;
+}
+.pay__list{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    margin: 20px 0 12px 20px;
+}
+.pay__btn{
+    display: block;
+    width: 260px;
+    background-color: #ffffff;
+    color: #445161;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    word-break: break-all;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.pay__btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.pay__btn:active{
+    background-color: #ffffff;
+    color: #445161;
+}
+.btn__text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bay_premium{
+    background-color: #445162;
+    box-sizing: border-box;
+    padding: 17px 0 20px ;
+    border-radius: 10px;
+    width: 300px;
+    height: 433px;
+    border: 2px solid #445162;
+}
+.bay__lux{
+    background-color: #445162;
+    box-sizing: border-box;
+    padding: 17px 0 20px ;
+    border-radius: 10px;
+    width: 300px;
+    height: 527px;
+    border: 2px solid #445162;
+}
