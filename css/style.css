@@ -419,6 +419,33 @@ input:focus{
     color: #fff !important;
     text-decoration: none;
 }
+.social{
+    display: flex;
+    margin: 0 0 0 20px;
+}
+.sicial__link{
+    margin: 0 0 0 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 45px;
+    height: 42px;
+    background-image: url(../icons/social\ buttons.png);
+}
+.sicial__link:nth-child(1){
+    background-position: -49px 0;
+}
+.sicial__link:nth-child(2){
+    background-position: -98px 0;
+}
+.sicial__link:nth-child(3){
+    background-position: -147px 0;
+}
+.sicial__link:nth-child(4){
+    background-position: -196px 0;
+}
+.sicial__link:nth-child(5){
+    background-position: -240px 0;
+}
 .copy{
     color: #445162;
     font-size: 12px;
